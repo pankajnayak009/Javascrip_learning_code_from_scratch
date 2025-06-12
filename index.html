@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>10 JavaScript Project Ideas</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <!-- <h1 id="hello"></h1>
+<button id="submit">submit</button> -->
+
+    <!-- <h1>I want to complete js in 1 week</h1> 
+ <h1>i want to complete js is 1 week</h1> -->
+
+    <!-- //JavaScript Learning Topics -->
+    <h1 id="js_topic_heading">JavaScript Learning Topics</h1>
+
+    <div class="js-topics" id="js_topics_list">
+      <a href="#intro" class="entry">Introduction</a>
+      <a href="#variables" class="entry">Variables and Datatypes</a>
+      <a href="#operators" class="entry">Operators and Conditionals</a>
+      <a href="#conditionals" class="entry">Conditionals</a>
+      <a href="#loops-strings" class="entry">Loops and Strings</a>
+      <a href="#strings" class="entry">Strings</a>
+      <a href="#functions" class="entry">Functions</a>
+      <a href="#arrays" class="entry">Arrays</a>
+      <a href="#call-stack" class="entry">Call Stack and Hoisting</a>
+      <a href="#scoping-tdz" class="entry"
+        >Variable Scoping and Temporal Dead Zone</a
+      >
+      <a href="#classes" class="entry">Classes</a>
+      <a href="#inbuilt-objects" class="entry"
+        >Inbuilt Objects in JS (Math and Date)</a
+      >
+      <a href="#garbage-collector" class="entry">Garbage Collector</a>
+      <a href="#error-handling" class="entry">Error Handling in JavaScript</a>
+      <a href="#dom-manipulation" class="entry">DOM Manipulation</a>
+      <a href="#browser-events" class="entry">Browser Events</a>
+      <a href="#performance" class="entry">Performance Improvement</a>
+      <a href="#event-loop" class="entry">Event Loop</a>
+      <a href="#promise" class="entry">Promise</a>
+      <a href="#await" class="entry">Await</a>
+      <a href="#closure" class="entry">Closure</a>
+      <a href="#js-project" class="entry">JavaScript Project</a>
+    </div>
+
+    <div class="entry" id="intro">Introduction</div>
+    <div class="container">
+      <strong>what is JavaScript</strong>
+      <p>
+        JavaScript (JS) is a lightweight interpreted (or just-in-time compiled)
+        programming language with first-class functions. While it is most
+        well-known as the scripting language for Web pages, many non-browser
+        environments also use it, such as Node.js, Apache CouchDB and Adobe
+        Acrobat. JavaScript is a prototype-based, multi-paradigm,
+        single-threaded, dynamic language, supporting object-oriented,
+        imperative, and declarative (e.g. functional programming) styles.
+      </p>
+
+      <img
+        class="responsive-img"
+        src="images\1_GPKOfdYa4lTotP-hCfD4gg.png"
+        alt=""
+        width="800"
+        style="display: block; margin: 0 auto; margin-bottom: 50px"
+      />
+    </div>
+
+    <div class="entrys" id="variables">Variables and Datatypes</div>
+    <!-- <img class="responsive-img" src="ouTgP5uuj.webp" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;"> -->
+    <img
+      class="responsive-img"
+      src="images\download.jpg"
+      alt=""
+      width="800"
+      style="display: block; margin: 0 auto; margin-bottom: 50px"
+    />
+    <table class="topics">
+      <tr>
+        <th>Type</th>
+        <th>Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>String</td>
+        <td>"Hello, World!"</td>
+        <td>Sequence of characters</td>
+      </tr>
+      <tr>
+        <td>Number</td>
+        <td>42, 3.14</td>
+        <td>Integer and Floating point numbers</td>
+      </tr>
+      <tr>
+        <td>BigInt</td>
+        <td>9007199254740991n</td>
+        <td>For large numbers beyond safe integer range</td>
+      </tr>
+      <tr>
+        <td>Boolean</td>
+        <td>true, false</td>
+        <td>Logical values</td>
+      </tr>
+      <tr>
+        <td>Undefined</td>
+        <td>let x;</td>
+        <td>Declared but not assigned</td>
+      </tr>
+      <tr>
+        <td>Null</td>
+        <td>null</td>
+        <td>Represents an empty or unknown value</td>
+      </tr>
+      <tr>
+        <td>Symbol</td>
+        <td>Symbol('id')</td>
+        <td>Unique identifier</td>
+      </tr>
+      <tr>
+        <td>Object</td>
+        <td>{ name: "Pankaj", age: 25 }</td>
+        <td>Collection of key-value pairs</td>
+      </tr>
+      <tr>
+        <td>Array</td>
+        <td>[1, 2, 3]</td>
+        <td>Ordered list of values</td>
+      </tr>
+      <tr>
+        <td>Function</td>
+        <td>function() { return "Hello"; }</td>
+        <td>Reusable block of code</td>
+      </tr>
+    </table>
+
+    <div class="entry" id="operators">Operators and Conditionals</div>
+
+    <img
+      class="responsive-img"
+      src="images\WSF4GApTZ.png"
+      alt=""
+      width="800"
+      style="display: block; margin: 0 auto; margin-bottom: 50px"
+    />
+
+    <img
+      id="conditionals"
+      class="responsive-img"
+      src="images\types-of-conditional-control-flow-statements.png"
+      alt=""
+      width="800"
+      style="display: block; margin: 0 auto; margin-bottom: 50px"
+    />
+
+    <div class="entry" id="loops-strings">Loops and Strings</div>
+
+    <div class="container">
+      <h2>JavaScript Loops (Notes & Table)</h2>
+      <p>
+        Loops in JavaScript help execute a block of code multiple times until a
+        specified condition is met. They are used for iteration, automation, and
+        efficiency in programming.
+      </p>
+
+      <h3>Types of Loops in JavaScript:</h3>
+
+      <ul>
+        <li><b>for loop</b> → Runs a block of code a fixed number of times.</li>
+        <li><b>while loop</b> → Runs as long as a condition is true.</li>
+        <li>
+          <b>do...while loop</b> → Runs at least once, then checks the
+          condition.
+        </li>
+        <li><b>for...in loop</b> → Loops over object properties (keys).</li>
+        <li>
+          <b>for...of loop</b> → Loops over iterable items (arrays, strings,
+          etc.).
+        </li>
+        <li><b>break statement</b> → Exits a loop immediately.</li>
+        <li>
+          <b>continue statement</b> → Skips the current iteration and moves to
+          the next.
+        </li>
+      </ul>
+    </div>
+
+    <h2 id="strings">JavaScript String Methods Table</h2>
+    <p>
+      Below is a table containing various JavaScript string methods along with
+      their descriptions and examples.
+    </p>
+
+    <div class="table-container">
+      <table>
+        <tr>
+          <th>Method</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td><code>length</code></td>
+          <td>Returns the length of a string</td>
+          <td>
+            <pre>console.log("JavaScript".length); // 10</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>toUpperCase()</code></td>
+          <td>Converts string to uppercase</td>
+          <td>
+            <pre>console.log("hello".toUpperCase()); // "HELLO"</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>toLowerCase()</code></td>
+          <td>Converts string to lowercase</td>
+          <td>
+            <pre>console.log("WORLD".toLowerCase()); // "world"</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>charAt(index)</code></td>
+          <td>Returns character at a given index</td>
+          <td>
+            <pre>console.log("JavaScript".charAt(4)); // "S"</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>slice(start, end)</code></td>
+          <td>Extracts a portion of a string</td>
+          <td>
+            <pre>console.log("JavaScript".slice(0, 4)); // "Java"</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>replace(old, new)</code></td>
+          <td>Replaces part of a string</td>
+          <td>
+            <pre>
+console.log("Hello Pankaj".replace("Pankaj", "Dev")); // "Hello Dev"</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>includes(value)</code></td>
+          <td>Checks if substring exists</td>
+          <td>
+            <pre>console.log("JavaScript".includes("Script")); // true</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>indexOf(value)</code></td>
+          <td>Finds the position of substring</td>
+          <td>
+            <pre>console.log("JavaScript".indexOf("Script")); // 4</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>split("").reverse().join("")</code></td>
+          <td>Reverses a string</td>
+          <td>
+            <pre>
+console.log("hello".split("").reverse().join("")); // "olleh"</pre
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="entry" id="functions">Functions</div>
+    <div class="container">
+      <strong>what is JavaScript Function</strong>
+      <p>
+        Functions are the building blocks of JavaScript, allowing developers to
+        encapsulate reusable blocks of code. Whether you're a beginner or an
+        experienced coder, understanding functions is crucial for writing
+        efficient and maintainable JavaScript code. In this article, we'll delve
+        into the fundamentals of functions, explore different types of
+        functions, discuss their usage, and cover some advanced concepts to help
+        us level up your JavaScript skills.
+      </p>
+
+      <pre>
+
+      <strong>Syntax of a Function</strong>      ```
+    function functionName(parameter1, parameter2, ...) {
+    // Function body
+    // Code to be executed
+    return value; // Optional
+}
+          </pre>
+
+      <!-- <img src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;"> -->
+    </div>
+
+    <h2>JavaScript Functions Notes</h2>
+
+    <table class="topics">
+      <tr>
+        <th>Function Type</th>
+        <th>Syntax & Example</th>
+        <th>Description</th>
+      </tr>
+      <tr>
+        <td>Function Declaration</td>
+        <td><code>function greet(name) { return `Hello, ${name}!`; }</code></td>
+        <td>Standard function definition. Can be called before declaration.</td>
+      </tr>
+      <tr>
+        <td>Function Expression</td>
+        <td>
+          <code
+            >const greet = function(name) { return `Hello, ${name}!`; };</code
+          >
+        </td>
+        <td>Assigned to a variable. Cannot be called before declaration.</td>
+      </tr>
+      <tr>
+        <td>Arrow Function</td>
+        <td><code>const greet = (name) => `Hello, ${name}!`;</code></td>
+        <td>Shorter syntax. No <code>this</code> binding.</td>
+      </tr>
+      <tr>
+        <td>IIFE (Immediately Invoked Function Expression)</td>
+        <td>
+          <code>(function() { console.log("Runs immediately!"); })();</code>
+        </td>
+        <td>Executes instantly after definition.</td>
+      </tr>
+      <tr>
+        <td>Default Parameters</td>
+        <td>
+          <code
+            >function greet(name = "Guest") { return `Hello, ${name}!`; }</code
+          >
+        </td>
+        <td>Uses default value if no argument is passed.</td>
+      </tr>
+      <tr>
+        <td>Rest Parameters</td>
+        <td>
+          <code
+            >function sum(...numbers) { return numbers.reduce((acc, num) => acc
+            + num, 0); }</code
+          >
+        </td>
+        <td>Accepts multiple arguments as an array.</td>
+      </tr>
+      <tr>
+        <td>Callback Function</td>
+        <td>
+          <code
+            >function process(callback) { callback(); } process(() =>
+            console.log("Callback called!"));</code
+          >
+        </td>
+        <td>Function passed as an argument to another function.</td>
+      </tr>
+      <tr>
+        <td>Higher-Order Function</td>
+        <td>
+          <code
+            >function multiplier(factor) { return num => num * factor; }</code
+          >
+        </td>
+        <td>A function that returns another function.</td>
+      </tr>
+    </table>
+
+    <div class="entry" id="arrays">Arrays in JavaScript</div>
+    <div class="container">
+      <strong>What is an Array?</strong>
+      <p>
+        An array in JavaScript is a special type of object that stores a
+        collection of elements. These elements can be of any data type,
+        including numbers, strings, objects, or even other arrays. Arrays in
+        JavaScript are dynamic, meaning they can grow or shrink in size
+        dynamically as elements are added or removed.
+      </p>
+
+      <!-- <img class="responsive-img" src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;">
+         -->
+      <strong> Creating Arrays </strong>
+      <p>In JavaScript, we can create an array using</p>
+      <ul>
+        <li>Array Literal Notation '[]'</li>
+        <li>Array constructor</li>
+      </ul>
+    </div>
+    <h2>JavaScript Array Methods Table</h2>
+    <p>
+      Below is a table listing various JavaScript array methods along with their
+      descriptions and examples.
+    </p>
+    <div class="table-container">
+      <table class="topics">
+        <tr>
+          <th>Method</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+        <tr>
+          <td><code>push()</code></td>
+          <td>Adds an element to the end of an array</td>
+          <td>
+            <pre>
+let arr = [1, 2]; arr.push(3); console.log(arr); // [1, 2, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>pop()</code></td>
+          <td>Removes the last element from an array</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; arr.pop(); console.log(arr); // [1, 2]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>unshift()</code></td>
+          <td>Adds an element to the beginning of an array</td>
+          <td>
+            <pre>
+let arr = [2, 3]; arr.unshift(1); console.log(arr); // [1, 2, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>shift()</code></td>
+          <td>Removes the first element from an array</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; arr.shift(); console.log(arr); // [2, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>splice(start, deleteCount, ...items)</code></td>
+          <td>Removes or replaces elements</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; arr.splice(1, 1); console.log(arr); // [1, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>slice(start, end)</code></td>
+          <td>Returns a shallow copy of part of an array</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3, 4]; console.log(arr.slice(1, 3)); // [2, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>concat()</code></td>
+          <td>Merges two or more arrays</td>
+          <td>
+            <pre>
+let arr1 = [1, 2]; let arr2 = [3, 4]; console.log(arr1.concat(arr2)); // [1, 2, 3, 4]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>indexOf()</code></td>
+          <td>Finds the first index of an element</td>
+          <td>
+            <pre>let arr = [1, 2, 3]; console.log(arr.indexOf(2)); // 1</pre>
+          </td>
+        </tr>
+        <tr>
+          <td><code>includes()</code></td>
+          <td>Checks if an element exists</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; console.log(arr.includes(2)); // true</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>map()</code></td>
+          <td>Applies a function to each element</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; console.log(arr.map(x => x * 2)); // [2, 4, 6]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>filter()</code></td>
+          <td>Filters elements based on a condition</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; console.log(arr.filter(x => x > 1)); // [2, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>reduce()</code></td>
+          <td>Reduces array to a single value</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; console.log(arr.reduce((sum, x) => sum + x, 0)); // 6</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>sort()</code></td>
+          <td>Sorts the array</td>
+          <td>
+            <pre>
+let arr = [3, 1, 2]; console.log(arr.sort()); // [1, 2, 3]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>reverse()</code></td>
+          <td>Reverses the array</td>
+          <td>
+            <pre>
+let arr = [1, 2, 3]; console.log(arr.reverse()); // [3, 2, 1]</pre
+            >
+          </td>
+        </tr>
+        <tr>
+          <td><code>join()</code></td>
+          <td>Joins elements into a string</td>
+          <td>
+            <pre>
+let arr = ["Hello", "World"]; console.log(arr.join(" ")); // "Hello World"</pre
+            >
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="entry" id="call-stack">Call Stack and Hoisting</div>
+    <div class="container">
+      <strong>Hoisting in JavaScript</strong>
+      <p>
+        Hoisting is a behavior in JavaScript where function and variable
+        declarations are moved to the top of their scope before execution.
+      </p>
+      <!-- <img class="responsive-img" src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;">
+   -->
+      <strong> How It Works</strong>
+      <ul>
+        <li>
+          Function Declarations are fully hoisted, meaning they can be called
+          before being defined.
+        </li>
+        <li>
+          Var Variables are hoisted, but only the declaration (not the
+          initialization) let a; Declaration , a = 50;Initialization
+        </li>
+
+        <li>
+          Let and Const Variables are hoisted, but they are in a TDZ (Temporal
+          Dead Zone) until initialized
+        </li>
+      </ul>
+
+      <!-- 
+      <img src="images\hoisting_img.jpg" alt=""> -->
+      <img
+        class="responsive-img"
+        src="images\hoisting_img.jpg"
+        alt=""
+        width="800"
+        style="display: block; margin: 0 auto; margin-bottom: 50px"
+      />
+    </div>
+
+    <div class="entry">Call Stack and Hoisting</div>
+    <div class="container">
+      <strong>Call Stack in JavaScript</strong>
+      <p>
+        The call stack is a data structure in JavaScript that keeps track of
+        function calls. It follows the Last In, First Out (LIFO) principle.
+      </p>
+      <!-- <img class="responsive-img" src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;">
+   -->
+      <strong> How It Works</strong>
+      <ul>
+        <li><code>first()</code> is pushed onto the stack.</li>
+        <li>
+          <code>first()</code> calls <code>Second()</code>, so
+          <code>Second()</code> is pushed onto the stack.
+        </li>
+        <li>
+          <code>Second()</code> calls <code>Third()</code>, so
+          <code>Third()</code> is pushed onto the stack.
+        </li>
+        <li><code>Third()</code> executes and is popped.</li>
+        <li><code>Second()</code> finishes and is popped.</li>
+        <li><code>first()</code> finishes and is popped.</li>
+        <li>The Call Stack is empty. ✅</li>
+      </ul>
+
+      <!-- 
+      <img src="images\hoisting_img.jpg" alt=""> -->
+      <img
+        class="responsive-img"
+        src="images\call stavk img.jpg"
+        alt=""
+        width="800"
+        style="display: block; margin: 0 auto; margin-bottom: 50px"
+      />
+    </div>
+
+    <!-- Variable Scoping and Temporal Dead Zone -->
+    <div class="entry" id="scoping-tdz">
+      Variable Scoping and Temporal Dead Zone
+    </div>
+    <div class="container">
+      <strong>Variable Scop in JavaScript</strong>
+      <p>
+        Variable Scope. Scope in JavaScript refers to the current context of
+        code, which determines the accessibility of variables to JavaScript. The
+        two types of scope are local and global: Global variables are those
+        declared outside of a block. Local variables are those declared inside
+        of a block.24
+      </p>
+      <!-- <img class="responsive-img" src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;">
+   -->
+      <strong> Types of Scop </strong>
+      <ul>
+        <li>Global Scop ex : var</li>
+        <li>Function Scop</li>
+        <li>Block Scop ex : let , const</li>
+        <p>Note : var is not block Scope</p>
+      </ul>
+
+      <!-- 
+      <img src="images\hoisting_img.jpg" alt=""> -->
+      <img
+        class="responsive-img"
+        src=" "
+        alt=""
+        width="800"
+        style="display: block; margin: 0 auto; margin-bottom: 50px"
+      />
+
+      <strong>Temporal Dead Zone (TDZ) in JavaScript</strong>
+      <p>
+        What is the Temporal Dead Zone? The Temporal Dead Zone refers to the
+        period where a variable exists in a scope but cannot be accessed until
+        it is initialized. The TDZ starts from the beginning of the block until
+        the variable is declared and initialized.
+      </p>
+      <!-- <img class="responsive-img" src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;">
+   -->
+    </div>
+
+    <div class="entry" id="classes">Classes in JavaScript</div>
+    <div class="container">
+      <strong>Classes in JavaScript</strong>
+
+      <!-- <img class="responsive-img" src="1_GPKOfdYa4lTotP-hCfD4gg.png" alt="" width="800" style="display: block; margin: 0 auto; margin-bottom: 50px;">
+   -->
+      <p>
+        JavaScript classes provide a structured way to create objects using the
+        class keyword. They were introduced in ES6 to make object-oriented
+        programming (OOP) easier in JavaScript.
+      </p>
+
+      <h2>Key Features of Classes</h2>
+
+      <ul>
+        <li>
+          <strong>Encapsulation</strong> Groups data and methods into a single
+          unit.
+        </li>
+        <li>
+          <strong> Inheritance:</strong> Allows a class to inherit properties
+          and methods from another class.
+        </li>
+        <li>
+          <strong> Reusability:</strong> Promotes code reuse by defining
+          reusable object blueprints.
+        </li>
+      </ul>
+
+      <ul>
+        <li>
+          <strong>Constructor:</strong> A special method that initializes object
+          properties when a class is instantiated.
+        </li>
+        <li>
+          <strong>Methods (Behaviors):</strong> Functions within a class that
+          define the actions an object can perform.
+        </li>
+        <li>
+          <strong>Getters & Setters:</strong>
+          <ul>
+            <li>
+              <strong>Getter:</strong> A method that retrieves a private
+              property.
+            </li>
+            <li>
+              <strong>Setter:</strong> A method that modifies a private
+              property.
+            </li>
+          </ul>
+        </li>
+        <li>
+          <strong>Function: printEngineerName:</strong> A function that prints
+          the engineer’s name, using a default value if no argument is provided.
+        </li>
+      </ul>
+
+      <img
+        class="responsive-img"
+        src=" "
+        alt=""
+        width="800"
+        style="display: block; margin: 0 auto; margin-bottom: 50px"
+      />
+    </div>
+
+    <!-- Inbuilt Objects in JS (Math and Date) -->
+
+    <div class="entry" id="inbuilt-objects">
+      Inbuilt Objects in JS (Math and Date)
+    </div>
+    <div class="container">
+      <strong> Math Object</strong>
+      <p>
+        The Math object in JavaScript provides mathematical functions and
+        constants. It is not a constructor, so you don’t need to create an
+        instance of it.
+      </p>
+
+      <!-- <img class="responsive-img" src=" " alt="" width="800"
+            style="display: block; margin: 0 auto; margin-bottom: 50px;"> -->
+    </div>
+
+    <h2>JavaScript Math Methods</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Method</th>
+          <th>Description</th>
+          <th>Example</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>Math.abs(x)</code></td>
+          <td>Returns absolute value</td>
+          <td><code>Math.abs(-5) → 5</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.ceil(x)</code></td>
+          <td>Rounds up to the nearest integer</td>
+          <td><code>Math.ceil(4.3) → 5</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.floor(x)</code></td>
+          <td>Rounds down to the nearest integer</td>
+          <td><code>Math.floor(4.9) → 4</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.round(x)</code></td>
+          <td>Rounds to the nearest integer</td>
+          <td><code>Math.round(4.5) → 5</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.sqrt(x)</code></td>
+          <td>Returns the square root</td>
+          <td><code>Math.sqrt(16) → 4</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.pow(x, y)</code></td>
+          <td>Returns <code>x</code> raised to the power <code>y</code></td>
+          <td><code>Math.pow(2, 3) → 8</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.min(a, b, …)</code></td>
+          <td>Returns the smallest number</td>
+          <td><code>Math.min(5, 2, 9) → 2</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.max(a, b, …)</code></td>
+          <td>Returns the largest number</td>
+          <td><code>Math.max(5, 2, 9) → 9</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.random()</code></td>
+          <td>
+            Returns a random number between <code>0</code> and <code>1</code>
+          </td>
+          <td><code>Math.random() → 0.345</code></td>
+        </tr>
+        <tr>
+          <td><code>Math.PI</code></td>
+          <td>Returns the value of π (3.1416)</td>
+          <td><code>Math.PI → 3.141592653589793</code></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Date Object -->
+
+    <div class="container">
+      <strong> Date Object</strong>
+      <h4>The Date object allows you to work with dates and times.</h4>
+      <!-- 
+        <img class="responsive-img" src=" " alt="" width="800"
+            style="display: block; margin: 0 auto; margin-bottom: 50px;"> -->
+    </div>
+
+    <h2>JavaScript Date Methods</h2>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Method</th>
+            <th>Description</th>
+            <th>Example</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><code>getFullYear()</code></td>
+            <td>Returns the year</td>
+            <td><code>date.getFullYear() → 2025</code></td>
+          </tr>
+          <tr>
+            <td><code>getMonth()</code></td>
+            <td>Returns the month (0-11, where 0=Jan)</td>
+            <td><code>date.getMonth() → 2 (March)</code></td>
+          </tr>
+          <tr>
+            <td><code>getDate()</code></td>
+            <td>Returns the day of the month (1-31)</td>
+            <td><code>date.getDate() → 1</code></td>
+          </tr>
+          <tr>
+            <td><code>getDay()</code></td>
+            <td>Returns the day of the week (0-6, where 0=Sunday)</td>
+            <td><code>date.getDay() → 6 (Saturday)</code></td>
+          </tr>
+          <tr>
+            <td><code>getHours()</code></td>
+            <td>Returns the hour (0-23)</td>
+            <td><code>date.getHours() → 10</code></td>
+          </tr>
+          <tr>
+            <td><code>getMinutes()</code></td>
+            <td>Returns the minutes (0-59)</td>
+            <td><code>date.getMinutes() → 30</code></td>
+          </tr>
+          <tr>
+            <td><code>getSeconds()</code></td>
+            <td>Returns the seconds (0-59)</td>
+            <td><code>date.getSeconds() → 0</code></td>
+          </tr>
+          <tr>
+            <td><code>getTime()</code></td>
+            <td>Returns the timestamp (milliseconds since Jan 1, 1970)</td>
+            <td><code>date.getTime() → 1743274800000</code></td>
+          </tr>
+          <tr>
+            <td><code>setFullYear(y)</code></td>
+            <td>Sets the year</td>
+            <td><code>date.setFullYear(2030)</code></td>
+          </tr>
+          <tr>
+            <td><code>toDateString()</code></td>
+            <td>Returns a readable date</td>
+            <td><code>date.toDateString() → "Sat Mar 01 2025"</code></td>
+          </tr>
+          <tr>
+            <td><code>toLocaleDateString()</code></td>
+            <td>Returns a localized date string</td>
+            <td><code>date.toLocaleDateString() → "3/1/2025"</code></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- DOM Manipulation -->
+
+    <div class="entry" id="dom-manipulation">DOM Manipulation</div>
+    <div class="container">
+      <strong> DOM Manipulation in js </strong>
+
+      <ul>
+        <li>
+          The DOM (Document Object Model) is a programming interface that allows
+          JavaScript to interact with and manipulate HTML and CSS.
+        </li>
+        <li>
+          It represents the HTML document as a tree structure, where each
+          element is a node.
+        </li>
+      </ul>
+
+      <img
+        class="responsive-img"
+        src="images\DOM-Tree1.jpg "
+        alt=""
+        width="800"
+        style="display: block; margin: 0 auto; margin-bottom: 50px"
+      />
+    </div>
+
+    <div class="container">
+      <h1>JavaScript DOM (Document Object Model) Notes</h1>
+
+      <div class="note">
+        <h2>1. What is the DOM?</h2>
+        <p>
+          The DOM (Document Object Model) is a programming interface that allows
+          JavaScript to interact with and manipulate HTML and CSS.
+        </p>
+        <p>
+          It represents the HTML document as a tree structure, where each
+          element is a node.
+        </p>
+      </div>
+
+      <div class="note">
+        <h2>2.Types of Nodes in the DOM</h2>
+        <ul>
+          <li>
+            <b>Element Nodes:</b> Represent HTML elements
+            (<code>&lt;p&gt;</code>, <code>&lt;div&gt;</code>,
+            <code>&lt;h1&gt;</code>, etc.).
+          </li>
+          <li><b>Text Nodes:</b> Contain text inside an element.</li>
+          <li>
+            <b>Attribute Nodes:</b> Represent attributes of elements (class, id,
+            src, etc.).
+          </li>
+          <li>
+            <b>Comment Nodes:</b> Represent HTML comments (<code
+              >&lt;!-- This is a comment --&gt;</code
+            >).
+          </li>
+        </ul>
+      </div>
+
+      <div class="note">
+        <h2>3. Accessing Elements in the DOM</h2>
+        <pre>
+<code>document.getElementById("id");
+document.getElementsByClassName("class");
+document.getElementsByTagName("tag");
+document.querySelector("selector");
+document.querySelectorAll("selector");</code>
+            </pre>
+      </div>
+
+      <div class="note">
+        <h2>4. Modifying the DOM</h2>
+        <h3>Changing Content</h3>
+        <pre>
+<code>document.getElementById("heading").textContent = "New Title";
+document.getElementById("content").innerHTML = "<b>Bold Text</b>";</code>
+            </pre>
+        <h3>Changing Attributes</h3>
+        <pre>
+<code>let img = document.getElementById("myImage");
+img.setAttribute("src", "new-image.jpg");
+img.removeAttribute("alt");</code>
+            </pre>
+        <h3>Changing Styles</h3>
+        <pre>
+<code>let box = document.getElementById("box");
+box.style.backgroundColor = "blue";
+box.classList.add("active");</code>
+            </pre>
+      </div>
+
+      <div class="note">
+        <h2>5. Creating and Removing Elements</h2>
+        <h3>Creating Elements</h3>
+        <pre>
+<code>let newPara = document.createElement("p");
+newPara.textContent = "This is a new paragraph.";
+document.body.appendChild(newPara);</code>
+            </pre>
+        <h3>Removing Elements</h3>
+        <pre>
+<code>let item = document.getElementById("item");
+item.remove();</code>
+            </pre>
+      </div>
+
+      <div class="note">
+        <h2>6. Event Handling in the DOM</h2>
+        <pre>
+<code>document.getElementById("btn").addEventListener("click", function() {
+    alert("Button clicked!");
+});</code>
+            </pre>
+      </div>
+    </div>
+
+    <!-- 10 JavaScript Project Ideas -->
+
+    <div class="container">
+      <h1>10 JavaScript Project Ideas</h1>
+
+      <h2>Beginner Level</h2>
+      <ul>
+        <li>
+          <strong>To-Do List App</strong> – Create an interactive to-do list
+          with local storage.
+        </li>
+        <li>
+          <strong>Weather App</strong> – Fetch live weather data using an API
+          (e.g., OpenWeatherMap).
+        </li>
+        <li>
+          <strong>Calculator</strong> – Build a functional calculator with basic
+          arithmetic operations.
+        </li>
+        <li>
+          <strong>Digital Clock</strong> – Display a real-time updating clock
+          with date and time.
+        </li>
+        <li>
+          <strong>Quote Generator</strong> – Show random quotes using an API or
+          a predefined array.
+        </li>
+      </ul>
+
+      <h2>Intermediate Level</h2>
+      <ul>
+        <li>
+          <strong>Expense Tracker</strong> – Track income and expenses, and
+          store data in local storage.
+        </li>
+        <li>
+          <strong>Quiz App</strong> – Create a quiz with multiple-choice
+          questions and a scoring system.
+        </li>
+        <li>
+          <strong>Movie Search App</strong> – Fetch movie details using an API
+          like OMDB.
+        </li>
+      </ul>
+
+      <h2>Advanced Level</h2>
+      <ul>
+        <li>
+          <strong>E-commerce Cart System</strong> – Implement an interactive
+          shopping cart with add/remove features.
+        </li>
+        <li>
+          <strong>Chat Application</strong> – Build a real-time chat app using
+          WebSockets or Firebase.
+        </li>
+      </ul>
+
+      <p>
+        <strong>Would you like guidance on any of these projects? 🚀</strong>
+      </p>
+    </div>
+
+    <div>
+      <h1 id="fpara">hellow pankaj</h1>
+    </div>
+  </body>
+
+  <!-- <script src="index.js"></script>
+<script src="1=index.js"></script>
+<script src=""></script> -->
+  <script src="12=DOM_manipulation.js"></script>
+  <script src="13=Browser_Events.js"></script>
+</html>
